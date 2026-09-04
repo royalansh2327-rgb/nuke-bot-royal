@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Get secrets/settings from Render Environment Variables
 BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
-CHANNEL_ID = os.getenv("LOG_CHANNEL_ID", "1410458084874260592")
+CHANNEL_ID = os.getenv("LOG_CHANNEL_ID", "1545423415677288498")
 AUTH_SECRET = os.getenv("AUTH_SECRET", "")
 
 if not BOT_TOKEN:
